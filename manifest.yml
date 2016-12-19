@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: HL7-demo
+  host: HL7-demo
+  disk_quota: 1024M
+  services:
+  - HL7-demo-cloudantNoSQLDB
